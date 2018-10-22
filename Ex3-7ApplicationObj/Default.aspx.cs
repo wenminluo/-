@@ -33,24 +33,26 @@ namespace Ex3_7ApplicationObj
 
             if (usertype(userid) == 1
                 || usertype(userid) == 2)
+            {
                 Application.Lock();
 
-            switch( usertype(userid).ToString() )
-            {
-                case "1":
-                    Application["admin"] = Convert.ToInt32(Application["admin"]) + 1;
-                    break;
-                case "2":
-                    Application["user"] = Convert.ToInt32(Application["user"]) + 1;
-                    break;
-                default:
-                    Response.Write("<script>alert('对不起，你不是合法用户!')</script>");
-                    break; 
+                switch (usertype(userid).ToString())
+                {
+                    case "1":
+                        Application["admin"] = Convert.ToInt32(Application["admin"]) + 1;
+                        break;
+                    case "2":
+                        Application["user"] = Convert.ToInt32(Application["user"]) + 1;
+                        break;
+                    default:
+                        Response.Write("<script>alert('对不起，你不是合法用户!')</script>");
+                        break;
+                }
+
+                Application.UnLock();
             }
 
-            Application.UnLock();
-            Response.Redirect("Total.aspx?userid="+userid);
-
+            Response.Redirect("Total.aspx?userid=" + userid);
 
         }
     }

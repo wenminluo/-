@@ -17,7 +17,7 @@
     
     </div>
         <asp:Label ID="Label2" runat="server" Text="密  码:"></asp:Label>
-        <asp:TextBox ID="TextBox2" runat="server" style="margin-left: 9px"></asp:TextBox>
+        <asp:TextBox ID="TextBox2" runat="server" style="margin-left: 9px" TextMode="Password"></asp:TextBox>
         <asp:Button ID="Button1" runat="server" Text="登录" OnClick="Button1_Click" />
     </form>
 </body>

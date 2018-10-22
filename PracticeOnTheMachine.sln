@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadPosition", "ex_Window\L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetLocation", "ex_Window\LoadPosition\SetLocation\SetLocation.csproj", "{B0BB65BF-5AC9-42AE-B479-86B40099CEA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3-8ViewStateObj", "Ex3-8ViewStateObj\Ex3-8ViewStateObj.csproj", "{51D73F9E-CA99-46C3-9B65-21F71A4B056F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{B0BB65BF-5AC9-42AE-B479-86B40099CEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0BB65BF-5AC9-42AE-B479-86B40099CEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0BB65BF-5AC9-42AE-B479-86B40099CEA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D73F9E-CA99-46C3-9B65-21F71A4B056F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D73F9E-CA99-46C3-9B65-21F71A4B056F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D73F9E-CA99-46C3-9B65-21F71A4B056F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D73F9E-CA99-46C3-9B65-21F71A4B056F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,5 +108,6 @@ Global
 		{6147D344-0195-4799-944F-91BF5F384C60} = {5666F1B7-FB19-42DD-8632-C29E5DA800F3}
 		{9C93F9DB-137B-4514-B374-77F473EC3D3E} = {5666F1B7-FB19-42DD-8632-C29E5DA800F3}
 		{B0BB65BF-5AC9-42AE-B479-86B40099CEA9} = {5666F1B7-FB19-42DD-8632-C29E5DA800F3}
+		{51D73F9E-CA99-46C3-9B65-21F71A4B056F} = {E115533A-3280-47B9-A0EA-4674D86F84D7}
 	EndGlobalSection
 EndGlobal
