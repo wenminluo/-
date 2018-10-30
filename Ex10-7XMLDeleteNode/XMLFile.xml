@@ -1,0 +1,18 @@
+<basic>
+  <ID>1</ID>
+  <NAME>三国演义</NAME>
+  <AUTHOR>罗贯中</AUTHOR>
+  <PUBLISH>人民文学出版社</PUBLISH>
+  <basic>
+    <ID>2</ID>
+    <NAME>西游记</NAME>
+    <AUTHOR>吴承恩</AUTHOR>
+    <PUBLISH>人民文学出版社</PUBLISH>
+  </basic>
+  <basic>
+    <ID>3</ID>
+    <NAME>谜踪之国</NAME>
+    <AUTHOR>天下霸唱</AUTHOR>
+    <PUBLISH>春风文艺出版社</PUBLISH>
+  </basic>
+</basic>
